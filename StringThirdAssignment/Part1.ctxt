@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=dna\ startIndex\ stopCodon
+comment0.target=int\ findStopCodon(java.lang.String,\ int,\ java.lang.String)
+comment1.params=dna\ newStartIndex
+comment1.target=java.lang.String\ findGene(java.lang.String,\ int)
+comment1.text=\ public\ void\ testFindCodon(){\r\n\ \ \ \ String\ dna\="ABCTAAATGXYZTAADEFRGT";\r\n\ \ \ \ int\ startIndex\=dna.indexOf("ATG");\r\n\ \ \ \ int\ stopIndex\=findStopCodon(dna,startIndex,"TAA");\r\n\ \ \ \ System.out.println(dna.substring(startIndex,(stopIndex+3)));\r\n\ \ \ \ \r\n\ \ \ \ \r\n}
+comment2.params=
+comment2.target=void\ testFindGene()
+comment3.params=dna
+comment3.target=void\ printAllGene(java.lang.String)
+numComments=4
